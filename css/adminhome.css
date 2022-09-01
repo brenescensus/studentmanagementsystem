@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: skyblue;
+    padding: 10px;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+header li{
+float:right;
+list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    background-color: gray;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: skyblue;
+    
+}
+.content{
+    margin-left: 22%;
+}
